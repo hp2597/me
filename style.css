@@ -41,13 +41,16 @@ p{
 
 #interests{
 	border: red 2px solid;
+	padding: 0.5em 1em;
+	display:inline-block
+	border-radius: 0.5em;
 }
 
 .fa-ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px; /* Space between items */
+  gap: 50px; /* Space between items */
   list-style: none;
   padding: 0;
   margin: 1em 0;
