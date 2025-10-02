@@ -1,7 +1,3 @@
-/*
-At least one id attribute styled with CSS
-Use CSS Flexbox to arrange items along one axis (e.g., navigation menu, image gallery, or text blocks)*/
-
 @font-face {
   font-family: Oxygen-Regular;
   src:url(Oxygen-Regular.ttf);
@@ -47,30 +43,32 @@ p{
 }
 
 .fa-ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 50px; /* Space between items */
-  list-style: none;
-  padding: 0;
-  margin: 1em 0;
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	gap: 50px; /* Space between items */
+  	list-style: none;
+  	padding: 0;
+  	margin: 1em 0;
 }
 
 .fa-ul li {
-  display: flex;
-  align-items: center;
-  position: relative;
+	display: flex;
+  	align-items: center;
+  	position: relative;
 }
 
 .fa-li {
-  position: static;
-  margin-right: 8px;
-  display: inline-flex;
-  align-items: center;
+	position: static;
+	margin-right: 8px;
+	display: inline-flex;
+	align-items: center;
 }
 
 .fa-ul .fa-li i {
-  font-size: 1.2em;
+	font-size: 1.2em;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .fa-circle-info{
