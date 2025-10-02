@@ -42,7 +42,7 @@ p{
 #interests{
 	border: red 2px solid;
 	padding: 0.5em 1em;
-	display:inline-block
+	display:inline-block;
 	border-radius: 0.5em;
 }
 
