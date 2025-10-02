@@ -1,0 +1,68 @@
+/*Font family and font size for headings and paragraphs
+At least one box model property: margin, padding, or border
+At least two class attributes styled with CSS
+At least one id attribute styled with CSS
+Use CSS Flexbox to arrange items along one axis (e.g., navigation menu, image gallery, or text blocks)*/
+
+@font-face {
+  font-family: Oxygen-Regular;
+  src:url(Oxygen-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    background-color: WhiteSmoke;
+    color: DarkSlateGrey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    height: 100vh;  /* set height to full viewport height */
+    overflow: auto; /* added to enable scrolling */
+}
+
+h1 {
+    font-family: "Times New Roman", sans-serif; 
+    letter-spacing: 0.2rem;
+    font-size: 1.6rem;
+    padding-top:8%;
+	  margin-top:0;
+    margin-bottom: 4%;  
+}
+
+h2 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
+    text-decoration-color: cadetblue;  
+}
+
+p{
+  
+
+nav a{
+    background-color: black;
+    padding: 11px;
+    border-radius: 50% 20% / 10% 40%;
+    
+}
+
+nav a:link {
+    color:HotPink;
+    text-decoration: none;
+}
+nav a:visited {
+    color:LightPink;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: Fuchsia;
+}
+
+nav a:active {
+    color:DeepPink;
+}
+
+
+
+
