@@ -1,4 +1,4 @@
-/*Font family and font size for headings and paragraphs
+/*
 At least one id attribute styled with CSS
 Use CSS Flexbox to arrange items along one axis (e.g., navigation menu, image gallery, or text blocks)*/
 
@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-    font-family: "Times New Roman", sans-serif; 
+    font-family: "Times New Roman", sans-serif, serif; 
     letter-spacing: 0.2rem;
     font-size: 3rem;
 	margin-bottom:0.5%;
@@ -32,6 +32,15 @@ h2 {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-decoration-color: ;  
+}
+
+p{
+	font-family:"Fira Sans", sans-serif, serif;
+	font-size: 1rem;
+}
+
+#interests{
+	border: red 2px solid;
 }
 
 .fa-ul {
@@ -79,7 +88,6 @@ h2 {
     padding: 0.3em;
 }
   
-
 nav a{
     padding: 5px;
     border-radius: 20% / 30%;  
