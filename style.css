@@ -9,7 +9,7 @@ body {
     background-color: WhiteSmoke;
     color: DarkSlateGrey;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
+    margin: 0 15%;
     height: 100vh;  /* set height to full viewport height */
     overflow: auto; /* added to enable scrolling */
 }
