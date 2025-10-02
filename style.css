@@ -34,19 +34,46 @@ h2 {
     text-decoration-color: ;  
 }
 
-.fa-circle-info i{
+.fa-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px; /* Space between items */
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.fa-ul li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.fa-li {
+  position: static;
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.fa-ul .fa-li i {
+  font-size: 1.2em;
+}
+
+.fa-circle-info{
 	background-color: papayawhip;
     border-radius: 0.2em;
     padding: 0.3em;
 }
 
-.fa-heart i{
+.fa-heart{
 	background-color: BlanchedAlmond;
     border-radius: 0.2em;
     padding: 0.3em;
 }
 
-.fa-briefcase i{
+.fa-briefcase{
 	background-color: Bisque;
     border-radius: 0.2em;
     padding: 0.3em;
