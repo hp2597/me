@@ -1,6 +1,4 @@
 /*Font family and font size for headings and paragraphs
-At least one box model property: margin, padding, or border
-At least two class attributes styled with CSS
 At least one id attribute styled with CSS
 Use CSS Flexbox to arrange items along one axis (e.g., navigation menu, image gallery, or text blocks)*/
 
@@ -25,7 +23,7 @@ h1 {
     letter-spacing: 0.2rem;
     font-size: 1.6rem;
     padding-top:8%;
-	  margin-top:0;
+	margin-top:0;
     margin-bottom: 4%;  
 }
 
@@ -36,7 +34,23 @@ h2 {
     text-decoration-color: cadetblue;  
 }
 
-p{
+.fa-circle-info i{
+	background-color: papayawhip;
+    border-radius: 0.2em;
+    padding: 0.3em;
+}
+
+.fa-heart{
+	background-color: BlanchedAlmond;
+    border-radius: 0.2em;
+    padding: 0.3em;
+}
+
+.fa-briefcase{
+	background-color: Bisque;
+    border-radius: 0.2em;
+    padding: 0.3em;
+}
   
 
 nav a{
